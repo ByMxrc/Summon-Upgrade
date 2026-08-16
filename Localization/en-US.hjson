@@ -1,0 +1,26 @@
+Mods: {
+	SummonUpgrade: {
+		PrefixSummonTagDamage: +{0} summon tag damage
+
+		UI: {
+			Minions: Minions: {0} / {1}
+			Sentries: Sentries: {0} / {1}
+		}
+
+		Prefixes: {
+			FabledPrefix.DisplayName: Fabled
+			LoyalPrefix.DisplayName: Loyal
+			WorthyPrefix.DisplayName: Worthy
+			FocusedPrefix.DisplayName: Focused
+			EagerPrefix.DisplayName: Eager
+			BallisticPrefix.DisplayName: Ballistic
+			ScragglingPrefix.DisplayName: Scraggling
+			PatientPrefix.DisplayName: Patient
+			RabidPrefix.DisplayName: Rabid
+			IllTemperedPrefix.DisplayName: Ill-Tempered
+			PettyPrefix.DisplayName: Petty
+			FeeblePrefix.DisplayName: Feeble
+			SkittishPrefix.DisplayName: Skittish
+		}
+	}
+}

@@ -1,0 +1,3 @@
+displayName = Summon Upgrade
+author = ByMxrc
+version = 1.0

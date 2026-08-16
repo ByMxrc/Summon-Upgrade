@@ -1,0 +1,26 @@
+Mods: {
+	SummonUpgrade: {
+		PrefixSummonTagDamage: +{0} de daño de marca de invocación
+
+		UI: {
+			Minions: Súbditos: {0} / {1}
+			Sentries: Centinelas: {0} / {1}
+		}
+
+		Prefixes: {
+			FabledPrefix.DisplayName: Fabuloso
+			LoyalPrefix.DisplayName: Leal
+			WorthyPrefix.DisplayName: Digno
+			FocusedPrefix.DisplayName: Enfocado
+			EagerPrefix.DisplayName: Ansioso
+			BallisticPrefix.DisplayName: Balístico
+			ScragglingPrefix.DisplayName: Desaliñado
+			PatientPrefix.DisplayName: Paciente
+			RabidPrefix.DisplayName: Rabioso
+			IllTemperedPrefix.DisplayName: Malhumorado
+			PettyPrefix.DisplayName: Mezquino
+			FeeblePrefix.DisplayName: Débil
+			SkittishPrefix.DisplayName: Asustadizo
+		}
+	}
+}

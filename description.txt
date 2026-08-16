@@ -1,0 +1,23 @@
+Español:
+
+Añade las nuevas mecánicas y mejoras para la clase Invocador de la próxima actualización de Terraria 1.4.5 (Bigger & Boulder) a tModLoader 1.4.4.9.
+
+Características Principales:
+- Nuevos Prefijos de Invocador: 13 nuevos prefijos exclusivos para armas de invocación (Fabuloso, Leal, Digno, Enfocado, Ansioso, Balístico, Desaliñado, Paciente, Rabioso, Malhumorado, Mezquino, Débil, Asustadizo).
+- Contador de Invocaciones (UI): Una nueva interfaz visual interactiva que muestra tu cantidad actual de Súbditos.
+- Costo de Maná Eliminado: Las armas de invocación y centinelas ya no consumen maná al ser utilizadas.
+- Resaltado de Mejor Reforja: Texto visual personalizado, brillante y colorido al obtener la mejor reforja posible (Fabuloso, Legendario, etc.) para tus armas con el Duende Chapucero, evitando que la saltes accidentalmente.
+
+No soy un experto en desarrollo de mods y mucho menos de Terraria pero hice mi mayor esfuerzo en esto, así que cualquier bug o detalle que no es fiel a lo anunciado para la versión 1.4.5 será atendido de inmediato.
+
+
+English:
+
+Adds the new summoner class mechanics and improvements from the upcoming Terraria 1.4.5 update (Bigger & Boulder) to tModLoader 1.4.4.9.
+
+- New Summoner Prefixes: 13 new exclusive prefixes for summon weapons (Fabled, Loyal, Worthy, Focused, Eager, Ballistic, Scraggling, Patient, Rabid, Ill-Tempered, Petty, Feeble, Skittish).
+- Summon Counter UI: A new interactive visual interface that displays your current Minions.
+- Mana Cost Removed: Summon weapons and sentries no longer consume mana when used.
+- Best Reforge Highlight: Custom, bright and colorful visual text when rolling the best possible reforge (Fabled, Legendary, etc.) for your weapons at the Goblin Tinkerer, preventing you from accidentally skipping it.
+
+I'm not an expert in mod development, much less Terraria, but I did my best on this, so any bug or detail that isn't faithful to the announced 1.4.5 features will be addressed immediately.
