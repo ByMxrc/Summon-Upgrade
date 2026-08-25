@@ -19,7 +19,23 @@ namespace SummonUpgrade.GlobalBuffs
                 
                 foreach (int projType in projectiles)
                 {
-                    count += player.ownedProjectileCounts[projType];
+                    if (projType == Terraria.ID.ProjectileID.StardustDragon1)
+                    {
+                        int head = player.ownedProjectileCounts[Terraria.ID.ProjectileID.StardustDragon1];
+                        int body1 = player.ownedProjectileCounts[Terraria.ID.ProjectileID.StardustDragon2];
+                        int body2 = player.ownedProjectileCounts[Terraria.ID.ProjectileID.StardustDragon3];
+                        int tail = player.ownedProjectileCounts[Terraria.ID.ProjectileID.StardustDragon4];
+                        
+                        int totalSegments = head + body1 + body2 + tail;
+                        if (totalSegments > 0)
+                        {
+                            count += System.Math.Max(1, (totalSegments - 2) / 2);
+                        }
+                    }
+                    else
+                    {
+                        count += player.ownedProjectileCounts[projType];
+                    }
                 }
 
                 if (count > 0)

@@ -22,6 +22,28 @@ namespace SummonUpgrade.GlobalItems
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
+            int insertIndex = -1;
+            for (int i = 0; i < tooltips.Count; i++)
+            {
+                if (tooltips[i].IsModifier)
+                {
+                    insertIndex = i + 1;
+                }
+            }
+
+            if (insertIndex == -1)
+            {
+                for (int i = 0; i < tooltips.Count; i++)
+                {
+                    if (tooltips[i].Name == "JourneyResearch" || tooltips[i].Name == "ModName")
+                    {
+                        insertIndex = i;
+                        break;
+                    }
+                }
+                if (insertIndex == -1) insertIndex = tooltips.Count;
+            }
+
             if (TagDamage > 0)
             {
                 string text = Language.GetTextValue("Mods.SummonUpgrade.PrefixTagDamage", TagDamage);
@@ -34,14 +56,15 @@ namespace SummonUpgrade.GlobalItems
                     IsModifierBad = false
                 };
                 
-                tooltips.Add(line);
+                tooltips.Insert(insertIndex, line);
+                insertIndex++;
             }
 
             if (ArmorPenetration > 0)
             {
                 string text = Language.GetTextValue("Mods.SummonUpgrade.PrefixArmorPenetration", ArmorPenetration);
                 if (string.IsNullOrEmpty(text) || text == "Mods.SummonUpgrade.PrefixArmorPenetration")
-                    text = $"+{ArmorPenetration} penetración de armadura";
+                    text = $"+{ArmorPenetration} armor penetration";
 
                 TooltipLine line = new TooltipLine(Mod, "PrefixSummonArmorPenetration", text)
                 {
@@ -49,7 +72,8 @@ namespace SummonUpgrade.GlobalItems
                     IsModifierBad = false
                 };
                 
-                tooltips.Add(line);
+                tooltips.Insert(insertIndex, line);
+                insertIndex++;
             }
         }
     }

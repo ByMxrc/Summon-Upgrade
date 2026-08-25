@@ -94,9 +94,6 @@ namespace SummonUpgrade.GlobalItems
             // 2. Tools
             if (prefix == PrefixID.Light || prefix == PrefixID.Massive) return true;
 
-            // 3. Ruthless is a unique case: its monetary 'value' is lower than Mythical, 
-            // but mechanically it is considered a top-tier choice for pure summon damage.
-            if (item.CountsAsClass(DamageClass.Summon) && prefix == PrefixID.Ruthless) return true;
 
             // 5. Dynamic Monte Carlo Check for the absolute highest value prefix this specific weapon can NATURALLY roll
             if (item.damage > 0)
